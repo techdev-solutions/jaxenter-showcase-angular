@@ -3,11 +3,13 @@ require.config({
     baseUrl: 'src',
     paths: {
         'jQuery': 'lib/jQuery-2.1.3',
-        'angular': 'lib/angular'
+        'angular': 'lib/angular',
+        'angular-ui-router': 'lib/angular-ui-router'
     },
     shim: {
         'angular': { exports: 'angular', deps: ['jQuery']},
-        'jQuery': { exports: '$' }
+        'jQuery': { exports: '$' },
+        'angular-ui-router': ['angular']
     }
 });
 

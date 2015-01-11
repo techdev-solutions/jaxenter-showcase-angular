@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="jax.index" href>jax</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li ui-sref-active="active">
+                <a href ui-sref="jax.user">User</a>
+            </li>
+            <li ui-sref-active="active">
+                <a href ui-sref="jax.admin">Admin</a>
+            </li>
+        </ul>
+        <div ui-view="navbar"></div>
+    </div>
+</nav>
+
+<div class="container">
+    <div ui-view="content"></div>
+</div>
