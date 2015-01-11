@@ -1,8 +1,5 @@
-define(['modules/appender/appender'], function(appender) {
+define(['angular', 'modules/user/userModule', 'modules/admin/adminModule'], function(angular) {
     'use strict';
-    return {
-        init: function() {
-            appender.append();
-        }
-    };
+    var jax = angular.module('jax', ['jax.user', 'jax.admin']);
+    return jax;
 });

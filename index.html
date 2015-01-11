@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Jaxenter Showcase Addressbook</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
 </head>
 <body>
-<div id="app"></div>
+<div class="container">
+    <h1>Addresses</h1>
+    <div ng-controller="user.addressBookController">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <td>Name</td>
+                <td>First name</td>
+                <td>City</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="address in addresses">
+                <td>{{address.name}}</td>
+                <td>{{address.firstName}}</td>
+                <td>{{address.city}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 <script data-main="./bootstrap.js" src="src/lib/require.js"></script>
 </body>
 </html>
