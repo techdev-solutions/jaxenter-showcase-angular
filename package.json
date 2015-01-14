@@ -1,0 +1,33 @@
+{
+  "name": "jaxenter-showcase-angular",
+  "version": "1.0.0",
+  "description": "Showcase project for the jaxenter article from techdev",
+  "main": "src/app.js",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-requirejs": "^0.4.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techdev-solutions/jaxenter-showcase-angular"
+  },
+  "keywords": [
+    "angular",
+    "jaxenter",
+    "techdev",
+    "requirejs",
+    "ui-router"
+  ],
+  "author": "Moritz Schulze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techdev-solutions/jaxenter-showcase-angular/issues"
+  },
+  "homepage": "https://github.com/techdev-solutions/jaxenter-showcase-angular"
+}

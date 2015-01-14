@@ -3,6 +3,22 @@ jaxenter techdev AngularJS showcase
 
 This is a small, modular application built on RequireJS and AngularJS.
 
+Using Grunt
+------------
+Install grunt globally
+
+    npm install -g grunt
+
+Install the dev packages in this directory
+
+    npm install
+
+Run grunt
+
+    grunt
+
+The prepared app will be in the directory out/.
+
 Running
 -------
 
@@ -11,7 +27,7 @@ like Apache or nginx.
 
 Alternatively you can start a HTTP server with Ruby or python by executing
 
-    ruby -run -e httpd . -p 9090
+    ruby -run -e httpd . -p 8080
 
 or
 
